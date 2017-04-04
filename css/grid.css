@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-areas: "a" "b" "c" "d";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+}
+
+
+
+/*Desktop*/
+
+@media (min-width: 640px) {
+    body {
+        grid-template-areas: "a a" "b c" "d d";
+        grid-template-rows: min-content 1fr min-content;
+        grid-template-columns: 10em 1fr;
+    }
+}
+
+header {
+    grid-area: a;
+}
+
+nav {
+    grid-area: b;
+}
+
+article {
+    grid-area: c;
+}
+
+footer {
+    grid-area: d;
+}

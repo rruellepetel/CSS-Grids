@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-columns: 500px 500px 1fr;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "a b e" "c d e";
+}
+
+header {
+    grid-area: a;
+    justify-self : center;
+}
+
+nav {
+    grid-area: b;
+    align-self: center;
+}
+
+article {
+    grid-area: c;
+    justify-self : center;
+    align-self: center;
+}
+
+footer {
+    grid-area: d;
+}
+
+aside {
+    grid-area: e;
+    padding: 1em;
+}
+
+li {
+    font-size: 2em;
+    list-style: none;
+}
+
+h2 {
+    text-decoration: underline;
+}

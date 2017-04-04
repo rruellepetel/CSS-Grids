@@ -1,0 +1,23 @@
+header {
+    background-color: #7e7e7e;
+    color: white;
+}
+
+nav {
+    background-color: #3780fe;
+    color: white;
+}
+
+article {
+    background-color: #fdaa0d;
+    color: white;
+}
+
+footer {
+    background-color: #da1b3e;
+    color: white;
+}
+
+aside {
+    background-color: lightgreen;
+}
